@@ -3,6 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*More*/
+#more {
+    display: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:focus {
+    border : none ; 
+    color : #fa5238;
+}
+.nav-link, .nav-link.active {
+    display: block;
+    transition: all .5s;
+    position : relative;
+    border : none;
+    font-size: 30px;
+    font-weight: 900;
+    padding : 10px 20px ;
+}
+ .nav-tabs .nav-link:hover {
+    border : none ;
+    color : #fa5238;
+    transform: scale(1.2);
+}
+.nav-tabs .nav-link, .nav-tabs {
+    color : black;
+}
+.filmDetailsMin a {
+    font-weight: 0;
+}
+.filmDetails a {
+    text-decoration: none;
+    color : black;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all .2s;
+}
+.filmDetailsMin a {
+    text-decoration: none;
+    color : black;
+    font-size: 20px;
+    transition: all .2s;
+}
+.filmDetails a:hover,.filmDetailsMin a:hover {
+    color : #fa5238;
+}
+.card {
+    border : none;
+}
+.card-footer {
+    border: none;
+    background: none;
+    padding: 0;
+}
+.card-body {
+    padding : 0;
+}
 /* Begin footer */
 .linePartner{
     margin-bottom: 15px;
