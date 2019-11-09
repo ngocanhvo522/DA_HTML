@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 /*More*/
+/* Begin header carousel*/
 #more {
     display: none;
 }
@@ -58,6 +59,7 @@
 .card-body {
     padding : 0;
 }
+/*End header carousel*/
 /* Begin footer */
 .linePartner{
     margin-bottom: 15px;
